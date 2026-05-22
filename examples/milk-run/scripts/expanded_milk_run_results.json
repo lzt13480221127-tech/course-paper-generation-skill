@@ -1,0 +1,1491 @@
+{
+  "data_path": "D:\\Google_Install\\expanded_milk_run_dataset.xlsx",
+  "capacity": 40.0,
+  "frequency": 4,
+  "supplier_count": 24,
+  "daily_total_demand": 1998.0,
+  "single_total_demand": 499.5,
+  "theoretical_min_vehicles": 13,
+  "suppliers": {
+    "S01": {
+      "code": "S01",
+      "x": -8.29,
+      "y": 5.65,
+      "daily_total": 71.0,
+      "pickup": 17.75,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S02": {
+      "code": "S02",
+      "x": 9.78,
+      "y": 9.4,
+      "daily_total": 101.0,
+      "pickup": 25.25,
+      "type_count": 2,
+      "load_grade": "高"
+    },
+    "S03": {
+      "code": "S03",
+      "x": 11.74,
+      "y": -8.99,
+      "daily_total": 83.0,
+      "pickup": 20.75,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S04": {
+      "code": "S04",
+      "x": -5.34,
+      "y": -9.53,
+      "daily_total": 111.0,
+      "pickup": 27.75,
+      "type_count": 3,
+      "load_grade": "高"
+    },
+    "S05": {
+      "code": "S05",
+      "x": -8.43,
+      "y": 6.23,
+      "daily_total": 64.0,
+      "pickup": 16.0,
+      "type_count": 1,
+      "load_grade": "中"
+    },
+    "S06": {
+      "code": "S06",
+      "x": 10.46,
+      "y": 10.33,
+      "daily_total": 96.0,
+      "pickup": 24.0,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S07": {
+      "code": "S07",
+      "x": 13.31,
+      "y": -5.78,
+      "daily_total": 74.0,
+      "pickup": 18.5,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S08": {
+      "code": "S08",
+      "x": -7.48,
+      "y": -11.03,
+      "daily_total": 41.0,
+      "pickup": 10.25,
+      "type_count": 2,
+      "load_grade": "低"
+    },
+    "S09": {
+      "code": "S09",
+      "x": -7.51,
+      "y": 8.62,
+      "daily_total": 78.0,
+      "pickup": 19.5,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S10": {
+      "code": "S10",
+      "x": 10.08,
+      "y": 7.79,
+      "daily_total": 89.0,
+      "pickup": 22.25,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S11": {
+      "code": "S11",
+      "x": 13.06,
+      "y": -8.91,
+      "daily_total": 104.0,
+      "pickup": 26.0,
+      "type_count": 2,
+      "load_grade": "高"
+    },
+    "S12": {
+      "code": "S12",
+      "x": -6.62,
+      "y": -8.02,
+      "daily_total": 73.0,
+      "pickup": 18.25,
+      "type_count": 2,
+      "load_grade": "中"
+    },
+    "S13": {
+      "code": "S13",
+      "x": -6.25,
+      "y": 5.52,
+      "daily_total": 111.0,
+      "pickup": 27.75,
+      "type_count": 3,
+      "load_grade": "高"
+    },
+    "S14": {
+      "code": "S14",
+      "x": 10.75,
+      "y": 8.5,
+      "daily_total": 38.0,
+      "pickup": 9.5,
+      "type_count": 2,
+      "load_grade": "低"
+    },
+    "S15": {
+      "code": "S15",
+      "x": 13.56,
+      "y": -8.23,
+      "daily_total": 116.0,
+      "pickup": 29.0,
+      "type_count": 1,
+      "load_grade": "高"
+    },
+    "S16": {
+      "code": "S16",
+      "x": -4.86,
+      "y": -12.03,
+      "daily_total": 88.0,
+      "pickup": 22.0,
+      "type_count": 3,
+      "load_grade": "中"
+    },
+    "S17": {
+      "code": "S17",
+      "x": -13.24,
+      "y": 4.79,
+      "daily_total": 88.0,
+      "pickup": 22.0,
+      "type_count": 1,
+      "load_grade": "中"
+    },
+    "S18": {
+      "code": "S18",
+      "x": 8.17,
+      "y": 9.75,
+      "daily_total": 44.0,
+      "pickup": 11.0,
+      "type_count": 2,
+      "load_grade": "低"
+    },
+    "S19": {
+      "code": "S19",
+      "x": 13.33,
+      "y": -8.44,
+      "daily_total": 100.0,
+      "pickup": 25.0,
+      "type_count": 2,
+      "load_grade": "高"
+    },
+    "S20": {
+      "code": "S20",
+      "x": -4.31,
+      "y": -11.0,
+      "daily_total": 63.0,
+      "pickup": 15.75,
+      "type_count": 1,
+      "load_grade": "中"
+    },
+    "S21": {
+      "code": "S21",
+      "x": -8.17,
+      "y": 5.41,
+      "daily_total": 96.0,
+      "pickup": 24.0,
+      "type_count": 1,
+      "load_grade": "中"
+    },
+    "S22": {
+      "code": "S22",
+      "x": 10.23,
+      "y": 9.64,
+      "daily_total": 92.0,
+      "pickup": 23.0,
+      "type_count": 3,
+      "load_grade": "中"
+    },
+    "S23": {
+      "code": "S23",
+      "x": 13.28,
+      "y": -5.3,
+      "daily_total": 57.0,
+      "pickup": 14.25,
+      "type_count": 2,
+      "load_grade": "低"
+    },
+    "S24": {
+      "code": "S24",
+      "x": -4.7,
+      "y": -8.04,
+      "daily_total": 120.0,
+      "pickup": 30.0,
+      "type_count": 2,
+      "load_grade": "高"
+    }
+  },
+  "results": {
+    "节点路径最短法": {
+      "routes": [
+        [
+          "S13",
+          "S18"
+        ],
+        [
+          "S24",
+          "S14"
+        ],
+        [
+          "S21",
+          "S05"
+        ],
+        [
+          "S01",
+          "S09"
+        ],
+        [
+          "S12",
+          "S08"
+        ],
+        [
+          "S04"
+        ],
+        [
+          "S16",
+          "S20"
+        ],
+        [
+          "S10",
+          "S23"
+        ],
+        [
+          "S02"
+        ],
+        [
+          "S22"
+        ],
+        [
+          "S17"
+        ],
+        [
+          "S07",
+          "S03"
+        ],
+        [
+          "S06"
+        ],
+        [
+          "S19"
+        ],
+        [
+          "S15"
+        ],
+        [
+          "S11"
+        ]
+      ],
+      "route_count": 16,
+      "single_total_distance": 555.6,
+      "daily_total_distance": 2222.4,
+      "single_total_load": 499.5,
+      "avg_load_rate": 78.05,
+      "min_load_rate": 55.0,
+      "max_load_rate": 100.0,
+      "load_rate_std": 16.59,
+      "runtime_sec": 0.0001,
+      "complexity_note": "贪心选择，约为O(n^2)",
+      "route_details": [
+        {
+          "route": [
+            "S13",
+            "S18"
+          ],
+          "load": 38.75,
+          "distance": 41.5,
+          "load_rate": 96.88
+        },
+        {
+          "route": [
+            "S24",
+            "S14"
+          ],
+          "load": 39.5,
+          "distance": 52.5,
+          "load_rate": 98.75
+        },
+        {
+          "route": [
+            "S21",
+            "S05"
+          ],
+          "load": 40.0,
+          "distance": 24.4,
+          "load_rate": 100.0
+        },
+        {
+          "route": [
+            "S01",
+            "S09"
+          ],
+          "load": 37.25,
+          "distance": 28.1,
+          "load_rate": 93.12
+        },
+        {
+          "route": [
+            "S12",
+            "S08"
+          ],
+          "load": 28.5,
+          "distance": 30.9,
+          "load_rate": 71.25
+        },
+        {
+          "route": [
+            "S04"
+          ],
+          "load": 27.75,
+          "distance": 25.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S16",
+            "S20"
+          ],
+          "load": 37.75,
+          "distance": 29.8,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S10",
+            "S23"
+          ],
+          "load": 36.5,
+          "distance": 46.6,
+          "load_rate": 91.25
+        },
+        {
+          "route": [
+            "S02"
+          ],
+          "load": 25.25,
+          "distance": 31.2,
+          "load_rate": 63.12
+        },
+        {
+          "route": [
+            "S22"
+          ],
+          "load": 23.0,
+          "distance": 32.4,
+          "load_rate": 57.5
+        },
+        {
+          "route": [
+            "S17"
+          ],
+          "load": 22.0,
+          "distance": 32.4,
+          "load_rate": 55.0
+        },
+        {
+          "route": [
+            "S07",
+            "S03"
+          ],
+          "load": 39.25,
+          "distance": 37.8,
+          "load_rate": 98.12
+        },
+        {
+          "route": [
+            "S06"
+          ],
+          "load": 24.0,
+          "distance": 33.8,
+          "load_rate": 60.0
+        },
+        {
+          "route": [
+            "S19"
+          ],
+          "load": 25.0,
+          "distance": 36.2,
+          "load_rate": 62.5
+        },
+        {
+          "route": [
+            "S15"
+          ],
+          "load": 29.0,
+          "distance": 36.4,
+          "load_rate": 72.5
+        },
+        {
+          "route": [
+            "S11"
+          ],
+          "load": 26.0,
+          "distance": 36.4,
+          "load_rate": 65.0
+        }
+      ]
+    },
+    "扫描法": {
+      "routes": [
+        [
+          "S14",
+          "S22"
+        ],
+        [
+          "S02"
+        ],
+        [
+          "S06",
+          "S18"
+        ],
+        [
+          "S09"
+        ],
+        [
+          "S13"
+        ],
+        [
+          "S05",
+          "S01"
+        ],
+        [
+          "S21"
+        ],
+        [
+          "S17"
+        ],
+        [
+          "S12",
+          "S08"
+        ],
+        [
+          "S24"
+        ],
+        [
+          "S04"
+        ],
+        [
+          "S16",
+          "S20"
+        ],
+        [
+          "S03"
+        ],
+        [
+          "S11"
+        ],
+        [
+          "S19"
+        ],
+        [
+          "S15"
+        ],
+        [
+          "S07",
+          "S23"
+        ],
+        [
+          "S10"
+        ]
+      ],
+      "route_count": 18,
+      "single_total_distance": 536.9,
+      "daily_total_distance": 2147.6,
+      "single_total_load": 499.5,
+      "avg_load_rate": 69.38,
+      "min_load_rate": 48.75,
+      "max_load_rate": 94.38,
+      "load_rate_std": 12.56,
+      "runtime_sec": 0.0011,
+      "complexity_note": "极角排序与旋转搜索，约为O(n^2)",
+      "route_details": [
+        {
+          "route": [
+            "S14",
+            "S22"
+          ],
+          "load": 32.5,
+          "distance": 33.4,
+          "load_rate": 81.25
+        },
+        {
+          "route": [
+            "S02"
+          ],
+          "load": 25.25,
+          "distance": 31.2,
+          "load_rate": 63.12
+        },
+        {
+          "route": [
+            "S06",
+            "S18"
+          ],
+          "load": 35.0,
+          "distance": 34.2,
+          "load_rate": 87.5
+        },
+        {
+          "route": [
+            "S09"
+          ],
+          "load": 19.5,
+          "distance": 26.2,
+          "load_rate": 48.75
+        },
+        {
+          "route": [
+            "S13"
+          ],
+          "load": 27.75,
+          "distance": 19.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S05",
+            "S01"
+          ],
+          "load": 33.75,
+          "distance": 24.3,
+          "load_rate": 84.38
+        },
+        {
+          "route": [
+            "S21"
+          ],
+          "load": 24.0,
+          "distance": 22.6,
+          "load_rate": 60.0
+        },
+        {
+          "route": [
+            "S17"
+          ],
+          "load": 22.0,
+          "distance": 32.4,
+          "load_rate": 55.0
+        },
+        {
+          "route": [
+            "S12",
+            "S08"
+          ],
+          "load": 28.5,
+          "distance": 30.9,
+          "load_rate": 71.25
+        },
+        {
+          "route": [
+            "S24"
+          ],
+          "load": 30.0,
+          "distance": 21.4,
+          "load_rate": 75.0
+        },
+        {
+          "route": [
+            "S04"
+          ],
+          "load": 27.75,
+          "distance": 25.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S16",
+            "S20"
+          ],
+          "load": 37.75,
+          "distance": 29.8,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S03"
+          ],
+          "load": 20.75,
+          "distance": 34.0,
+          "load_rate": 51.88
+        },
+        {
+          "route": [
+            "S11"
+          ],
+          "load": 26.0,
+          "distance": 36.4,
+          "load_rate": 65.0
+        },
+        {
+          "route": [
+            "S19"
+          ],
+          "load": 25.0,
+          "distance": 36.2,
+          "load_rate": 62.5
+        },
+        {
+          "route": [
+            "S15"
+          ],
+          "load": 29.0,
+          "distance": 36.4,
+          "load_rate": 72.5
+        },
+        {
+          "route": [
+            "S07",
+            "S23"
+          ],
+          "load": 32.75,
+          "distance": 33.7,
+          "load_rate": 81.88
+        },
+        {
+          "route": [
+            "S10"
+          ],
+          "load": 22.25,
+          "distance": 29.4,
+          "load_rate": 55.62
+        }
+      ]
+    },
+    "节约里程法": {
+      "routes": [
+        [
+          "S01",
+          "S05"
+        ],
+        [
+          "S02"
+        ],
+        [
+          "S03",
+          "S12"
+        ],
+        [
+          "S04",
+          "S08"
+        ],
+        [
+          "S06",
+          "S18"
+        ],
+        [
+          "S07",
+          "S23"
+        ],
+        [
+          "S09"
+        ],
+        [
+          "S10"
+        ],
+        [
+          "S11"
+        ],
+        [
+          "S13"
+        ],
+        [
+          "S14",
+          "S22"
+        ],
+        [
+          "S15"
+        ],
+        [
+          "S16",
+          "S20"
+        ],
+        [
+          "S17"
+        ],
+        [
+          "S19"
+        ],
+        [
+          "S21"
+        ],
+        [
+          "S24"
+        ]
+      ],
+      "route_count": 17,
+      "single_total_distance": 527.8,
+      "daily_total_distance": 2111.2,
+      "single_total_load": 499.5,
+      "avg_load_rate": 73.46,
+      "min_load_rate": 48.75,
+      "max_load_rate": 97.5,
+      "load_rate_std": 14.75,
+      "runtime_sec": 0.0003,
+      "complexity_note": "节约值排序与端点合并，约为O(n^2 log n)",
+      "route_details": [
+        {
+          "route": [
+            "S01",
+            "S05"
+          ],
+          "load": 33.75,
+          "distance": 24.3,
+          "load_rate": 84.38
+        },
+        {
+          "route": [
+            "S02"
+          ],
+          "load": 25.25,
+          "distance": 31.2,
+          "load_rate": 63.12
+        },
+        {
+          "route": [
+            "S03",
+            "S12"
+          ],
+          "load": 39.0,
+          "distance": 50.1,
+          "load_rate": 97.5
+        },
+        {
+          "route": [
+            "S04",
+            "S08"
+          ],
+          "load": 38.0,
+          "distance": 30.9,
+          "load_rate": 95.0
+        },
+        {
+          "route": [
+            "S06",
+            "S18"
+          ],
+          "load": 35.0,
+          "distance": 34.2,
+          "load_rate": 87.5
+        },
+        {
+          "route": [
+            "S07",
+            "S23"
+          ],
+          "load": 32.75,
+          "distance": 33.7,
+          "load_rate": 81.88
+        },
+        {
+          "route": [
+            "S09"
+          ],
+          "load": 19.5,
+          "distance": 26.2,
+          "load_rate": 48.75
+        },
+        {
+          "route": [
+            "S10"
+          ],
+          "load": 22.25,
+          "distance": 29.4,
+          "load_rate": 55.62
+        },
+        {
+          "route": [
+            "S11"
+          ],
+          "load": 26.0,
+          "distance": 36.4,
+          "load_rate": 65.0
+        },
+        {
+          "route": [
+            "S13"
+          ],
+          "load": 27.75,
+          "distance": 19.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S14",
+            "S22"
+          ],
+          "load": 32.5,
+          "distance": 33.4,
+          "load_rate": 81.25
+        },
+        {
+          "route": [
+            "S15"
+          ],
+          "load": 29.0,
+          "distance": 36.4,
+          "load_rate": 72.5
+        },
+        {
+          "route": [
+            "S16",
+            "S20"
+          ],
+          "load": 37.75,
+          "distance": 29.8,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S17"
+          ],
+          "load": 22.0,
+          "distance": 32.4,
+          "load_rate": 55.0
+        },
+        {
+          "route": [
+            "S19"
+          ],
+          "load": 25.0,
+          "distance": 36.2,
+          "load_rate": 62.5
+        },
+        {
+          "route": [
+            "S21"
+          ],
+          "load": 24.0,
+          "distance": 22.6,
+          "load_rate": 60.0
+        },
+        {
+          "route": [
+            "S24"
+          ],
+          "load": 30.0,
+          "distance": 21.4,
+          "load_rate": 75.0
+        }
+      ]
+    },
+    "遗传算法": {
+      "routes": [
+        [
+          "S04",
+          "S08"
+        ],
+        [
+          "S12",
+          "S09"
+        ],
+        [
+          "S13"
+        ],
+        [
+          "S05",
+          "S21"
+        ],
+        [
+          "S02"
+        ],
+        [
+          "S06",
+          "S18"
+        ],
+        [
+          "S11"
+        ],
+        [
+          "S16",
+          "S20"
+        ],
+        [
+          "S10"
+        ],
+        [
+          "S14",
+          "S22"
+        ],
+        [
+          "S01",
+          "S17"
+        ],
+        [
+          "S24"
+        ],
+        [
+          "S03",
+          "S07"
+        ],
+        [
+          "S15"
+        ],
+        [
+          "S19",
+          "S23"
+        ]
+      ],
+      "route_count": 15,
+      "single_total_distance": 480.4,
+      "daily_total_distance": 1921.6,
+      "single_total_load": 499.5,
+      "avg_load_rate": 83.25,
+      "min_load_rate": 55.62,
+      "max_load_rate": 100.0,
+      "load_rate_std": 14.76,
+      "runtime_sec": 1.2971,
+      "complexity_note": "群体搜索与repair解码，约为O(G·P·n^2)",
+      "route_details": [
+        {
+          "route": [
+            "S04",
+            "S08"
+          ],
+          "load": 38.0,
+          "distance": 30.9,
+          "load_rate": 95.0
+        },
+        {
+          "route": [
+            "S12",
+            "S09"
+          ],
+          "load": 37.75,
+          "distance": 44.3,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S13"
+          ],
+          "load": 27.75,
+          "distance": 19.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S05",
+            "S21"
+          ],
+          "load": 40.0,
+          "distance": 24.4,
+          "load_rate": 100.0
+        },
+        {
+          "route": [
+            "S02"
+          ],
+          "load": 25.25,
+          "distance": 31.2,
+          "load_rate": 63.12
+        },
+        {
+          "route": [
+            "S06",
+            "S18"
+          ],
+          "load": 35.0,
+          "distance": 34.2,
+          "load_rate": 87.5
+        },
+        {
+          "route": [
+            "S11"
+          ],
+          "load": 26.0,
+          "distance": 36.4,
+          "load_rate": 65.0
+        },
+        {
+          "route": [
+            "S16",
+            "S20"
+          ],
+          "load": 37.75,
+          "distance": 29.8,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S10"
+          ],
+          "load": 22.25,
+          "distance": 29.4,
+          "load_rate": 55.62
+        },
+        {
+          "route": [
+            "S14",
+            "S22"
+          ],
+          "load": 32.5,
+          "distance": 33.4,
+          "load_rate": 81.25
+        },
+        {
+          "route": [
+            "S01",
+            "S17"
+          ],
+          "load": 39.75,
+          "distance": 33.5,
+          "load_rate": 99.38
+        },
+        {
+          "route": [
+            "S24"
+          ],
+          "load": 30.0,
+          "distance": 21.4,
+          "load_rate": 75.0
+        },
+        {
+          "route": [
+            "S03",
+            "S07"
+          ],
+          "load": 39.25,
+          "distance": 37.8,
+          "load_rate": 98.12
+        },
+        {
+          "route": [
+            "S15"
+          ],
+          "load": 29.0,
+          "distance": 36.4,
+          "load_rate": 72.5
+        },
+        {
+          "route": [
+            "S19",
+            "S23"
+          ],
+          "load": 39.25,
+          "distance": 38.1,
+          "load_rate": 98.12
+        }
+      ],
+      "parameters": {
+        "population_size": 120,
+        "generations": 260,
+        "crossover_rate": 0.86,
+        "mutation_rate": 0.22,
+        "elite_size": 6,
+        "random_seed": 20260521
+      }
+    },
+    "模拟退火算法": {
+      "routes": [
+        [
+          "S11"
+        ],
+        [
+          "S07",
+          "S03"
+        ],
+        [
+          "S04",
+          "S08"
+        ],
+        [
+          "S02"
+        ],
+        [
+          "S05",
+          "S21"
+        ],
+        [
+          "S13"
+        ],
+        [
+          "S22",
+          "S14"
+        ],
+        [
+          "S16",
+          "S20"
+        ],
+        [
+          "S06",
+          "S18"
+        ],
+        [
+          "S17",
+          "S01"
+        ],
+        [
+          "S15"
+        ],
+        [
+          "S23",
+          "S19"
+        ],
+        [
+          "S24"
+        ],
+        [
+          "S10"
+        ],
+        [
+          "S12",
+          "S09"
+        ]
+      ],
+      "route_count": 15,
+      "single_total_distance": 480.4,
+      "daily_total_distance": 1921.6,
+      "single_total_load": 499.5,
+      "avg_load_rate": 83.25,
+      "min_load_rate": 55.62,
+      "max_load_rate": 100.0,
+      "load_rate_std": 14.76,
+      "runtime_sec": 0.5212,
+      "complexity_note": "邻域扰动与退火接受准则，约为O(K·n^2)",
+      "route_details": [
+        {
+          "route": [
+            "S11"
+          ],
+          "load": 26.0,
+          "distance": 36.4,
+          "load_rate": 65.0
+        },
+        {
+          "route": [
+            "S07",
+            "S03"
+          ],
+          "load": 39.25,
+          "distance": 37.8,
+          "load_rate": 98.12
+        },
+        {
+          "route": [
+            "S04",
+            "S08"
+          ],
+          "load": 38.0,
+          "distance": 30.9,
+          "load_rate": 95.0
+        },
+        {
+          "route": [
+            "S02"
+          ],
+          "load": 25.25,
+          "distance": 31.2,
+          "load_rate": 63.12
+        },
+        {
+          "route": [
+            "S05",
+            "S21"
+          ],
+          "load": 40.0,
+          "distance": 24.4,
+          "load_rate": 100.0
+        },
+        {
+          "route": [
+            "S13"
+          ],
+          "load": 27.75,
+          "distance": 19.2,
+          "load_rate": 69.38
+        },
+        {
+          "route": [
+            "S22",
+            "S14"
+          ],
+          "load": 32.5,
+          "distance": 33.4,
+          "load_rate": 81.25
+        },
+        {
+          "route": [
+            "S16",
+            "S20"
+          ],
+          "load": 37.75,
+          "distance": 29.8,
+          "load_rate": 94.38
+        },
+        {
+          "route": [
+            "S06",
+            "S18"
+          ],
+          "load": 35.0,
+          "distance": 34.2,
+          "load_rate": 87.5
+        },
+        {
+          "route": [
+            "S17",
+            "S01"
+          ],
+          "load": 39.75,
+          "distance": 33.5,
+          "load_rate": 99.38
+        },
+        {
+          "route": [
+            "S15"
+          ],
+          "load": 29.0,
+          "distance": 36.4,
+          "load_rate": 72.5
+        },
+        {
+          "route": [
+            "S23",
+            "S19"
+          ],
+          "load": 39.25,
+          "distance": 38.1,
+          "load_rate": 98.12
+        },
+        {
+          "route": [
+            "S24"
+          ],
+          "load": 30.0,
+          "distance": 21.4,
+          "load_rate": 75.0
+        },
+        {
+          "route": [
+            "S10"
+          ],
+          "load": 22.25,
+          "distance": 29.4,
+          "load_rate": 55.62
+        },
+        {
+          "route": [
+            "S12",
+            "S09"
+          ],
+          "load": 37.75,
+          "distance": 44.3,
+          "load_rate": 94.38
+        }
+      ],
+      "parameters": {
+        "iterations": 9000,
+        "start_temp": 80.0,
+        "cooling": 0.9975,
+        "random_seed": 20260528
+      }
+    }
+  },
+  "exact_partition_reference": {
+    "routes": [
+      [
+        "S01",
+        "S17"
+      ],
+      [
+        "S02"
+      ],
+      [
+        "S03",
+        "S07"
+      ],
+      [
+        "S04",
+        "S08"
+      ],
+      [
+        "S05",
+        "S21"
+      ],
+      [
+        "S06",
+        "S18"
+      ],
+      [
+        "S09",
+        "S12"
+      ],
+      [
+        "S10"
+      ],
+      [
+        "S11"
+      ],
+      [
+        "S13"
+      ],
+      [
+        "S14",
+        "S22"
+      ],
+      [
+        "S15"
+      ],
+      [
+        "S16",
+        "S20"
+      ],
+      [
+        "S19",
+        "S23"
+      ],
+      [
+        "S24"
+      ]
+    ],
+    "route_count": 15,
+    "single_total_distance": 480.4,
+    "daily_total_distance": 1921.6,
+    "single_total_load": 499.5,
+    "avg_load_rate": 83.25,
+    "min_load_rate": 55.62,
+    "max_load_rate": 100.0,
+    "load_rate_std": 14.76,
+    "runtime_sec": 0.0442,
+    "complexity_note": "容量可行分组校验，精确集合划分搜索",
+    "route_details": [
+      {
+        "route": [
+          "S01",
+          "S17"
+        ],
+        "load": 39.75,
+        "distance": 33.5,
+        "load_rate": 99.38
+      },
+      {
+        "route": [
+          "S02"
+        ],
+        "load": 25.25,
+        "distance": 31.2,
+        "load_rate": 63.12
+      },
+      {
+        "route": [
+          "S03",
+          "S07"
+        ],
+        "load": 39.25,
+        "distance": 37.8,
+        "load_rate": 98.12
+      },
+      {
+        "route": [
+          "S04",
+          "S08"
+        ],
+        "load": 38.0,
+        "distance": 30.9,
+        "load_rate": 95.0
+      },
+      {
+        "route": [
+          "S05",
+          "S21"
+        ],
+        "load": 40.0,
+        "distance": 24.4,
+        "load_rate": 100.0
+      },
+      {
+        "route": [
+          "S06",
+          "S18"
+        ],
+        "load": 35.0,
+        "distance": 34.2,
+        "load_rate": 87.5
+      },
+      {
+        "route": [
+          "S09",
+          "S12"
+        ],
+        "load": 37.75,
+        "distance": 44.3,
+        "load_rate": 94.38
+      },
+      {
+        "route": [
+          "S10"
+        ],
+        "load": 22.25,
+        "distance": 29.4,
+        "load_rate": 55.62
+      },
+      {
+        "route": [
+          "S11"
+        ],
+        "load": 26.0,
+        "distance": 36.4,
+        "load_rate": 65.0
+      },
+      {
+        "route": [
+          "S13"
+        ],
+        "load": 27.75,
+        "distance": 19.2,
+        "load_rate": 69.38
+      },
+      {
+        "route": [
+          "S14",
+          "S22"
+        ],
+        "load": 32.5,
+        "distance": 33.4,
+        "load_rate": 81.25
+      },
+      {
+        "route": [
+          "S15"
+        ],
+        "load": 29.0,
+        "distance": 36.4,
+        "load_rate": 72.5
+      },
+      {
+        "route": [
+          "S16",
+          "S20"
+        ],
+        "load": 37.75,
+        "distance": 29.8,
+        "load_rate": 94.38
+      },
+      {
+        "route": [
+          "S19",
+          "S23"
+        ],
+        "load": 39.25,
+        "distance": 38.1,
+        "load_rate": 98.12
+      },
+      {
+        "route": [
+          "S24"
+        ],
+        "load": 30.0,
+        "distance": 21.4,
+        "load_rate": 75.0
+      }
+    ]
+  }
+}

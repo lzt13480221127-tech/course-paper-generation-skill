@@ -1,0 +1,4 @@
+display_name: Course Paper Generation
+short_description: Create polished course papers with reproducible figures and Word/PDF outputs.
+default_prompt: Create a standard editable course paper from my requirements, drafts, data, and references, preserving revisions and generating reproducible figures.
+
