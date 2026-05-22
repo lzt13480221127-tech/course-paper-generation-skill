@@ -31,7 +31,7 @@ Generate editable, submission-ready course papers and reports with reproducible 
 4. **Evidence map**: map each major claim to a proof object: formula, table, chart, algorithm result, case evidence, or citation.
 5. **Data and figure pass**: generate reproducible charts and tables using [references/figures-and-tables.md](references/figures-and-tables.md).
 6. **Writing pass**: write formal academic prose. Avoid conversational filler, task-instruction language, and unsupported claims.
-7. **Document assembly**: produce editable DOCX when possible; export PDF only after DOCX layout is checked.
+7. **Document assembly**: produce editable DOCX when possible; for final integration, figure embedding, editable flowcharts, route-map cleanup, and caption rules, use [references/report-generation-rules.md](references/report-generation-rules.md).
 8. **Revision pass**: preserve user edits and version outputs according to [references/revision-safety.md](references/revision-safety.md).
 9. **Final check**: verify title levels, citations, formulas, numbering, data consistency, page layout, and file naming.
 
@@ -65,6 +65,7 @@ Use this when the assignment does not provide a stronger template:
 - Need to choose a paper structure: read [references/paper-structures.md](references/paper-structures.md).
 - Need formal wording and section-level expectations: read [references/academic-writing.md](references/academic-writing.md).
 - Need charts, formulas, tables, or algorithm results: read [references/figures-and-tables.md](references/figures-and-tables.md).
+- Need final DOCX/PDF integration, generated figure embedding, Word-editable diagrams, route-map decisions, or iterative layout fixes: read [references/report-generation-rules.md](references/report-generation-rules.md).
 - Revising an existing DOCX/PDF: read [references/revision-safety.md](references/revision-safety.md).
 - Before delivery: read [references/quality-gates.md](references/quality-gates.md).
 
@@ -72,4 +73,3 @@ Use this when the assignment does not provide a stronger template:
 
 - `scripts/create_workspace.py`: create a clean paper workspace with source, data, references, figures, planning, and output folders.
 - `scripts/course_paper_plot_style.py`: apply a restrained academic Matplotlib style for paper figures.
-
