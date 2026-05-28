@@ -4,17 +4,20 @@
 
 ## 项目定位
 
-这个项目适合上传为独立 GitHub 仓库，建议仓库名：
+这个仓库目前包含两套相关 skill：
 
 ```text
-course-paper-generation-skill
+course-paper-generation-skill/        # 早期通用课程论文生成 skill
+course-paper-report-generator/        # 本次整理的课程报告生成与规范排版 skill
 ```
 
-核心 skill 位于：
+其中，`course-paper-report-generator/` 更强调以下能力：
 
-```text
-course-paper-generation-skill/
-```
+- 基于现有 Word/PDF 草稿做深化修改，而不是推翻重写；
+- 统一课程论文的字体、段落、图题、表题、公式和参考文献格式；
+- 强化“结果展示 + 描述性分析 + 比较分析 + 管理解释”的写作闭环；
+- 生成或检查论文配套 Python/Jupyter Notebook 图表代码；
+- 对算法类、案例类、设施规划类课程报告进行图文重组和质量校验。
 
 示范案例位于：
 
@@ -42,6 +45,12 @@ examples/milk-run/
 │   ├── agents/openai.yaml
 │   ├── references/
 │   └── scripts/
+├── course-paper-report-generator/
+│   ├── README.md
+│   ├── SKILL.md
+│   ├── agents/openai.yaml
+│   ├── references/
+│   └── scripts/
 └── examples/milk-run/
     ├── scripts/
     └── outputs/
@@ -49,26 +58,25 @@ examples/milk-run/
 
 ## 安装使用
 
-把 `course-paper-generation-skill/` 目录安装到 Codex skills 目录，或作为独立技能仓库管理。
+把需要使用的 skill 目录安装到 Codex skills 目录，或作为独立技能仓库管理。
 
-常用脚手架：
+例如安装本次整理的课程报告生成 skill：
 
-```bash
-python course-paper-generation-skill/scripts/create_workspace.py ./my-course-paper --profile algorithm-case-study
+```powershell
+Copy-Item -Recurse course-paper-report-generator $env:USERPROFILE\.codex\skills\
 ```
 
-图表风格工具：
+典型触发提示词：
 
-```python
-from course_paper_plot_style import apply_course_paper_style
-apply_course_paper_style(plt)
+```text
+使用 course-paper-report-generator 帮我基于当前 Word 草稿深化第六章，并统一图表与排版。
 ```
 
 ## 示例
 
-`examples/milk-run/` 保留了循环取货路径优化论文项目的核心脚本和最终输出，用作这个 skill 的真实样例：
+`examples/milk-run/` 保留了循环取货路径优化论文项目的核心脚本和最终输出，可作为这个 skill 的真实样例：
 
-- 路径优化与算法对比
-- 论文图表生成
-- Word/PDF 课程论文交付
-
+- 路径优化与算法对比；
+- 论文图表生成；
+- Word/PDF 课程论文交付；
+- 结果分析与管理含义扩写。
