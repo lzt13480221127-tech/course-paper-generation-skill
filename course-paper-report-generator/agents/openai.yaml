@@ -1,0 +1,3 @@
+display_name: Course Paper Generator
+short_description: Generate and polish formal Chinese course papers with algorithms, data, figures, tables, Word formatting, and reproducible code.
+default_prompt: Use this skill to turn my draft, data, figures, or prompt into a complete, well-formatted Chinese course paper/report. Preserve my core topic and results, deepen analysis, standardize figures/tables/citations, and produce Word/code/notebook outputs when needed.
